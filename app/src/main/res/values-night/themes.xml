@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OpenTracksKotlin" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/chart_cadence_fill</item>
+        <item name="colorPrimaryVariant">@color/chart_cadence_border</item>
+        <item name="colorOnPrimary">@color/oled_friendly</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/heart_rate_zone_textcolor_2</item>
+        <item name="colorSecondaryVariant">@color/heart_rate_zone_textcolor_2</item>
+        <item name="colorOnSecondary">@color/oled_friendly</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
